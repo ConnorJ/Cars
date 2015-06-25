@@ -10,7 +10,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>The Big Picture - Start Bootstrap Template</title>
+    <title>Cars</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -40,7 +40,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">Start Bootstrap</a>
+                <a class="navbar-brand" href="#">GOOD CARS</a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -60,15 +60,127 @@
         </div>
         <!-- /.container -->
     </nav>
+    
+    <style>
+        .transparent-input{
+           color: black;
+           background-color:rgba(255,255,255,0.2) !important;
+           border:white !important;
+        }
+        .text-color{
+          color: black;
+        }
+    </style>
 
     <!-- Page Content -->
-    <div class="container">
+    <div class="container text-color">
         <div class="row">
-            <div class="col-md-6 col-sm-12">
-                <h1>The Big Picture</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni, iusto, unde, sunt incidunt id sapiente rerum soluta voluptate harum veniam fuga odit ea pariatur vel eaque sint sequi tenetur eligendi.</p>
+            <div class="col-md-4 col-sm-12">
+                <h1>Search a Car</h1>
+                <div class="form-group">
+                    <div class="row">
+                      <div class="col-md-12">
+                        <label for="car_type">Select Car Type:</label>
+                        <select class="form-control transparent-input" id="car_type">
+                        <option>Convertible</option>
+                        <option>Crossover</option>
+                        <option>Luxury</option>
+                        <option>Hybrids</option>
+                        <option>Minivan</option>
+                        <option>Pickup Truck</option>
+                        <option>SUV</option>
+                        <option>Sports Car</option>
+                        <option>Wagon</option>
+                        <option>Coupe</option>
+                        <option>Sedan</option>
+                        </select>
+                      </div>
+                    </div>
+                	</br>
+                    <div class="row">
+                      <div class="col-md-6">
+                        <label for="low_year">Select Lowest Year:</label>
+                        <select class="form-control transparent-input" id="low_year">
+                        <option>2000</option>
+                        <option>2001</option>
+                        <option>2002</option>
+                        <option>2003</option>
+                        <option>2004</option>
+                        <option>2005</option>
+                        <option>2006</option>
+                        <option>2007</option>
+                        <option>2008</option>
+                        <option>2009</option>
+                        <option>2010</option>
+                        <option>2011</option>
+                        <option>2012</option>
+                        <option>2013</option>
+                        <option>2014</option>
+                        <option>2015</option>
+                        </select>
+                      </div>
+                      <div class="col-md-6">    
+                        <label for="MPG">Select MPG:</label>
+                        <select class="form-control transparent-input" id="MPG">
+                          <option> < 10 </option>
+                          <option>10-20</option>
+                          <option>20-30</option>
+                          <option>30-40</option>
+                          <option>40+</option>
+                        </select>
+                      </div>
+                    </div>
+                    </br>
+                    <div class="row">
+                       <div class="col-md-6">    
+                        <label for="features">Select Features:</label>
+                        <select class="form-control transparent-input" id="features" multiple>
+                          <option value="1" >3rd Rear Seat</option>
+                          <option>4WD/AWD</option>
+                          <option>Automatic Transmission</option>
+                          <option>Auxiliary Audio Input</option>
+                          <option>Blu-ray Video System</option>
+                          <option>Cruise Control</option>
+                          <option>DVD Video System</option>
+                          <option>Front Seat Heaters</option>
+                          <option>Leather Seats</option>
+                          <option>Manual Transmission</option>
+                          <option>Navigation System</option>
+                          <option>Rear View Camera</option>
+                          <option>Remote Start</option>
+                          <option>Smart Key</option>
+                          <option>Sunroof(s)</option>
+                          <option>Tow Hitch</option>                       
+                        </select>
+                      </div>
+                      
+                      
+                      
+                      <div class="col-md-6">
+                        <label for="cost">Select Cost Range:</label>
+                        <select class="form-control transparent-input" id="cost">
+                        <option>1000-2000</option>
+                        <option>2000-3000</option>
+                        <option>3000-4000</option>
+                        <option>+5000</option>
+                        </select>
+                      </div>
+                    
+                   
+                     
+                    </div>
+                    
+                    
+                    
+          
+            
+            
             </div>
         </div>
+        
+        
+
+        
         <!-- /.row -->
     </div>
     <!-- /.container -->
